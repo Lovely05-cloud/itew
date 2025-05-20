@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="1" stdDeviation="0.7" flood-color="#fff" flood-opacity="0.35"/>
+        </filter>
+    </defs>
+    <!-- Gradient background rectangle -->
+    <rect width="200" height="50" fill="url(#gradient)" rx="5"/>
+    <!-- Mountain Icon with white shadow -->
+    <g filter="url(#shadow)">
+        <path d="M20,35 L30,20 L40,35 Z" fill="#fff"/>
+        <path d="M35,35 L45,15 L55,35 Z" fill="#fff" opacity="0.8"/>
+    </g>
+    <!-- Logo Text with white shadow -->
+    <text x="65" y="32" font-family="Arial, sans-serif" font-size="20" fill="#fff" font-weight="bold" filter="url(#shadow)">
+        Tara Laguna
+    </text>
+    <!-- Tagline with white shadow -->
+    <text x="65" y="42" font-family="Arial, sans-serif" font-size="10" fill="#fff" opacity="0.9" filter="url(#shadow)">
+        Explore the Wonders
+    </text>
+</svg> 
